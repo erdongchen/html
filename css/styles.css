@@ -1,0 +1,115 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul,
+			ol {
+				list-style: none;
+			}
+			
+			h2 {
+				padding-left: 5%;
+				margin-top: 50px;
+				background-color: #d4ba38;
+				color: #fff;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #666;
+			}
+			
+			.float_l {
+				float: left;
+			}
+			
+			.float_r {
+				float: right;
+			}
+			
+			.header {
+				color: #fff;
+				width: 100%;
+				background-color: #d4ba38;
+			}
+			
+			.img {}
+			
+			.me {
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+			}
+			
+			.biao {
+				padding-bottom: 15px;
+			}
+			
+			.geren {
+				width: 90%;
+				margin: 0 auto;
+				/*border: 1px solid seagreen;*/
+				padding: 30px;
+			}
+			
+			.geren>p {
+				line-height: 25px;
+			}
+			
+			.center {
+				margin: 50px auto;
+				width: 92%;
+				max-width: 800px;
+				border: 1px solid #ccc;
+			}
+			
+			.mainNav {
+				width: 70%;
+				overflow: hidden;
+				margin: 0 auto;
+			}
+			
+			.mainbody {
+				padding-top: 30px;
+			}
+			
+			.one,
+			.two,
+			.two1,
+			.two2,
+			.three {
+				margin: 20px auto;
+				width: 90%;
+				/*border: 1px solid saddlebrown;*/
+				
+			}
+			.one:hover,.two:hover,.two1:hover,.two2:hover,.three:hover{
+				background-color: bisque;
+			}
+			.one>span {
+				padding-right: 20px;
+				color: lightslategrey;
+			}
+			
+			.two>span,
+			.two1>span,
+			.two2>span
+			{
+				padding-right: 20px;
+				color: #d4ba38;
+			}
+			
+			.two>p,
+			.two1>p,
+			.two2>p
+			{
+				margin: 20px auto;
+				line-height: 25px;
+				color: lightslategrey;
+			}
+			
+			.three>p {
+				margin: 20px auto;
+				color: lightslategrey;
+			}
